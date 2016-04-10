@@ -11,16 +11,8 @@ public class incimpl extends UnicastRemoteObject implements inc {
 		current = 0;
 	}
 	
+	public void add_one()	{current = current + 1;}
 	
-	public void add_one(){
-
-		current = current + 1;
-	}
-
-	
-	public int get_number(){
-
-		return current;
-	}
+	public int get_number()		{return current;}
 
 }
